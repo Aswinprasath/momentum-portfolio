@@ -112,7 +112,7 @@ const ProjectCard = ({ title, description, tags, image, liveUrl, githubUrl, dela
           )}
           {githubUrl && (
             <a
-              href={githubUrl}
+              href={"https://github.com/Aswinprasath"}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-all"
