@@ -50,7 +50,7 @@ const ProjectCard = ({ title, description, tags, image, liveUrl, githubUrl, dela
         />
 
         {/* Play Animation Indicator */}
-        <div
+        {/*<div
           className={cn(
             'absolute inset-0 flex items-center justify-center',
             'transition-all duration-300',
@@ -60,7 +60,7 @@ const ProjectCard = ({ title, description, tags, image, liveUrl, githubUrl, dela
           <div className="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center animate-pulse-slow">
             <Play size={24} className="text-primary-foreground ml-1" />
           </div>
-        </div>
+        </div> */}
 
         {/* Shimmer Effect */}
         <div
