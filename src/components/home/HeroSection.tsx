@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Profile Image */}
-          <div className="relative inline-block mb-8 animate-fade-in">
+          <div className="relative inline-block mb-8 mt-8 animate-fade-in">
             {/* Decorative rotating border */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-primary/50 to-primary animate-spin-slow" style={{
             padding: '4px',
