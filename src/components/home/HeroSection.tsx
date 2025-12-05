@@ -59,7 +59,7 @@ const HeroSection = () => {
             Hi, I'm a{' '}
             <span className="text-gradient">Tech Enthusiast</span>
             <br />
-           Python Developer & UI/UX Designer
+           | Python Programmer | UI/UX Designer |
           </h1>
 
           {/* Subtitle */}
