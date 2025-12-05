@@ -68,8 +68,8 @@ const HeroSection = () => {
           animationFillMode: 'forwards'
         }}>
             Motivated and curious IT student passionate about leveraging technology 
-            to solve real-world problems. Specialized in UI/UX Design, Data Visualization, 
-            and Software Development.
+            to solve real-world problems, skilled in Python and UI/UX design to create 
+            impactful digital solutions.
           </p>
 
           {/* CTA Buttons */}
