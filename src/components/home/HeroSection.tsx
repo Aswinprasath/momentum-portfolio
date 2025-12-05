@@ -57,9 +57,9 @@ const HeroSection = () => {
           animationFillMode: 'forwards'
         }}>
             Hi, I'm a{' '}
-            <span className="text-gradient">Tech Enthusiast</span>
+            <span className="text-gradient">Tech-focused </span>
             <br />
-           | Python Programmer | UI/UX Designer |
+            Python coder and UI/UX designer in progress
           </h1>
 
           {/* Subtitle */}
