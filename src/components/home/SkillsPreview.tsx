@@ -18,13 +18,13 @@ const skillCategories = [
   },
   {
     icon: BarChart3,
-    title: 'Data & Analytics',
+    title: 'Data & Analytics - Learing!',
     skills: ['Power BI', 'Data Visualization', 'MS Excel'],
     color: 'text-green-500',
   },
   {
     icon: Wrench,
-    title: 'Productivity Tools',
+    title: 'Productivity Tools - Learing!',
     skills: ['WordPress', 'MS Office', 'AI Tools'],
     color: 'text-orange-500',
   },
