@@ -1,0 +1,107 @@
+import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const HeroSection = () => {
+  return (
+    <section className="min-h-[90vh] flex items-center relative overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-20 left-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-float" />
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Status Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8 animate-fade-in">
+            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+            Available for opportunities
+          </div>
+
+          {/* Main Heading */}
+          <h1 
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-slide-up"
+            style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}
+          >
+            Hi, I'm a{' '}
+            <span className="text-gradient">Tech Enthusiast</span>
+            <br />
+            & UI/UX Designer
+          </h1>
+
+          {/* Subtitle */}
+          <p 
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-slide-up opacity-0"
+            style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}
+          >
+            Motivated and curious IT student passionate about leveraging technology 
+            to solve real-world problems. Specialized in UI/UX Design, Data Visualization, 
+            and Software Development.
+          </p>
+
+          {/* CTA Buttons */}
+          <div 
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up opacity-0"
+            style={{ animationDelay: '300ms', animationFillMode: 'forwards' }}
+          >
+            <Link
+              to="/projects"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-primary text-primary-foreground font-medium transition-all duration-300 hover:scale-105 hover:shadow-glow"
+            >
+              View Projects
+              <ArrowRight size={18} />
+            </Link>
+            <Link
+              to="/resume"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium border border-border transition-all duration-300 hover:bg-secondary/80 hover:scale-105"
+            >
+              <Download size={18} />
+              Download Resume
+            </Link>
+          </div>
+
+          {/* Social Links */}
+          <div 
+            className="flex items-center justify-center gap-4 animate-slide-up opacity-0"
+            style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}
+          >
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1"
+              aria-label="GitHub"
+            >
+              <Github size={22} />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1"
+              aria-label="LinkedIn"
+            >
+              <Linkedin size={22} />
+            </a>
+            <a
+              href="mailto:contact@example.com"
+              className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1"
+              aria-label="Email"
+            >
+              <Mail size={22} />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce-subtle">
+        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground flex justify-center pt-2">
+          <div className="w-1 h-2 rounded-full bg-muted-foreground animate-pulse" />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
