@@ -12,8 +12,35 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Profile Image */}
+          <div className="relative inline-block mb-8 animate-fade-in">
+            {/* Decorative rotating border */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-primary/50 to-primary animate-spin-slow" style={{ padding: '4px', animationDuration: '8s' }}>
+              <div className="w-full h-full rounded-full bg-background" />
+            </div>
+            {/* Curly decorative frame */}
+            <div className="absolute -inset-3 rounded-full border-2 border-dashed border-primary/30 animate-spin-slow" style={{ animationDuration: '20s', animationDirection: 'reverse' }} />
+            <div className="absolute -inset-6 rounded-full border border-dotted border-primary/20 animate-spin-slow" style={{ animationDuration: '30s' }} />
+            {/* Glowing effect */}
+            <div className="absolute inset-0 rounded-full bg-primary/20 blur-xl animate-pulse-slow" />
+            {/* Image container */}
+            <div className="relative w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full p-1 bg-gradient-to-br from-primary via-primary/60 to-primary/30">
+              <div className="w-full h-full rounded-full bg-gradient-to-br from-card to-secondary flex items-center justify-center overflow-hidden border-4 border-background shadow-2xl">
+                {/* Placeholder - replace src with your actual image */}
+                <img 
+                  src="/placeholder.svg" 
+                  alt="Profile photo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            {/* Corner decorations */}
+            <div className="absolute -top-2 -right-2 w-4 h-4 rounded-full bg-primary animate-bounce-subtle" />
+            <div className="absolute -bottom-2 -left-2 w-3 h-3 rounded-full bg-primary/70 animate-bounce-subtle" style={{ animationDelay: '0.5s' }} />
+          </div>
+
           {/* Status Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8 animate-fade-in">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 animate-fade-in" style={{ animationDelay: '100ms' }}>
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
             Available for opportunities
           </div>
@@ -21,7 +48,7 @@ const HeroSection = () => {
           {/* Main Heading */}
           <h1 
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-slide-up"
-            style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}
+            style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}
           >
             Hi, I'm a{' '}
             <span className="text-gradient">Tech Enthusiast</span>
