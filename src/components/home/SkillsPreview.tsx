@@ -7,7 +7,7 @@ const skillCategories = [
   {
     icon: Palette,
     title: 'Design & Prototyping',
-    skills: ['Figma', 'Canva', 'UI/UX Design', 'Wireframing'],
+    skills: ['Figma', 'Canva', 'UI/UX Design', 'Adobe Express'],
     color: 'text-pink-500',
   },
   {
