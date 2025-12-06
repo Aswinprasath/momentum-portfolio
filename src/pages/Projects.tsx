@@ -8,7 +8,7 @@ const projects = [
     description: 'A comprehensive travel application design featuring intuitive navigation, seamless booking flows, and immersive destination exploration. Built with modern UI patterns focusing on user experience and accessibility.',
     tags: ['Figma', 'UI/UX', 'Prototyping', 'Mobile App'],
     image: 'https://tinyurl.com/thumpnailtravelapp',
-    liveUrl: 'https://bit.ly/TravelApp123',
+    liveUrl: 'https://www.figma.com/proto/0ZKBztEF52EWwkrJ5aDgof/FirstAppTravel?page-id=0%3A1&node-id=235-3870&p=f&viewport=-2240%2C-567%2C0.5&t=OlL0lb6qxbiqRwQ2-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=237%3A4191',
     githubUrl: '#',
   },
   {
