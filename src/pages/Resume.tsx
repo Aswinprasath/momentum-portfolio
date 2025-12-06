@@ -31,21 +31,21 @@ const Resume = () => {
             <AnimatedCard delay={0}>
               <div className="text-center mb-6">
                 <h2 className="text-3xl font-bold mb-2">Tech Enthusiast</h2>
-                <p className="text-lg text-primary font-medium mb-4">UI/UX Designer & IT Student</p>
+                <p className="text-lg text-primary font-medium mb-4">Python Programmer | UI/UX Designer | IT Student</p>
               </div>
               
               <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
                 <span className="flex items-center gap-1">
                   <Mail size={14} />
-                  contact@example.com
+                  gowthamginju9524@gmail.com
                 </span>
                 <span className="flex items-center gap-1">
                   <Phone size={14} />
-                  +1 234 567 890
+                  +91 93612 18343
                 </span>
                 <span className="flex items-center gap-1">
                   <MapPin size={14} />
-                  Your City, Country
+                  Tamilnadu, India
                 </span>
                 <a href="#" className="flex items-center gap-1 hover:text-primary transition-colors">
                   <Linkedin size={14} />
@@ -68,7 +68,7 @@ const Resume = () => {
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 Motivated and curious tech enthusiast currently pursuing IT studies with growing expertise in 
-                UI/UX design, software tools, data visualization, and programming. Passionate about leveraging 
+                Python Program, UI/UX design, software tools, data visualization, and some programming. Passionate about leveraging 
                 technology to solve real-world problems. Known for being a fast learner, highly adaptable, 
                 and committed to delivering meaningful, high-quality results.
               </p>
