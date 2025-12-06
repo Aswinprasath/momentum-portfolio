@@ -158,7 +158,7 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator - Positioned lower with proper spacing */}
-      <div className="absolute bottom-10 left-[49%] -translate-x-1/2 animate-bounce-subtle z-20 mt-8">
+      <div className="absolute bottom-12 left-[49%] -translate-x-1/2 animate-bounce-subtle z-20 mt-8">
         <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/60 flex justify-center pt-2">
           <div className="w-1 h-2 rounded-full bg-muted-foreground/60 animate-pulse" />
         </div>
