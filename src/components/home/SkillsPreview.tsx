@@ -63,7 +63,7 @@ const SkillsPreview = () => {
 
         <div className="text-center">
           <Link
-            to="/about"
+            to="/about#skills"
             className="inline-flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all duration-300"
           >
             View All Skills
