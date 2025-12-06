@@ -7,7 +7,7 @@ import AnimatedCard from '@/components/ui/AnimatedCard';
 import { User, Target, BookOpen, Rocket } from 'lucide-react';
 
 const tools = {
-  'Design & Prototyping': ['Figma', 'Canva', 'UI/UX Design', 'Wireframing', 'Prototyping'],
+  'Design & Prototyping': ['Figma', 'Canva', 'Adobe Express', 'UI/UX Design', 'Wireframing', 'Prototyping'],
   'Development Tools': ['VS Code', 'Git', 'GitHub','DevC++','TurboC++', 'WordPress'],
   'Data & Productivity': ['Power BI', 'MS Excel', 'MS Word', 'MS PowerPoint', 'AI Tools'],
 };
