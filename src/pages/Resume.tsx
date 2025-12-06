@@ -17,7 +17,7 @@ const Resume = () => {
           {/* Download Button */}
           <div className="flex justify-center mb-12">
             <a
-              href="#"
+              href="https://tinyurl.com/5dse48wz"
               download
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-primary text-primary-foreground font-medium transition-all duration-300 hover:scale-105 hover:shadow-glow"
             >
