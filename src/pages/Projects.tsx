@@ -7,7 +7,7 @@ const projects = [
     title: 'Travel App UI/UX',
     description: 'A comprehensive travel application design featuring intuitive navigation, seamless booking flows, and immersive destination exploration. Built with modern UI patterns focusing on user experience and accessibility.',
     tags: ['Figma', 'UI/UX', 'Prototyping', 'Mobile App'],
-    image: 'https://vvrl.cc/i4ejl5',
+    image: 'https://tinyurl.com/thumpnailtravelapp',
     liveUrl: 'https://bit.ly/TravelApp123',
     githubUrl: '#',
   },
