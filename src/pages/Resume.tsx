@@ -86,7 +86,7 @@ const Resume = () => {
                 <div className="border-l-2 border-primary pl-4">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
                     <h4 className="font-medium">UI/UX Designer (Self-Employed)</h4>
-                    <span className="text-sm text-primary">Oct 2025 - Nov 2025t</span>
+                    <span className="text-sm text-primary">Lastly, Oct 2025 - Nov 2025</span>
                   </div>
                   <p className="text-sm text-muted-foreground mb-1">30-Day UI/UX Design Course</p>
                   <p className="text-sm text-muted-foreground">
