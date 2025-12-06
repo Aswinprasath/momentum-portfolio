@@ -1,34 +1,9 @@
+import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
-import TimelineItem from '@/components/ui/TimelineItem';
-import { Briefcase } from 'lucide-react';
-
-const experiences = [
-  {
-    title: 'UI/UX Design Intern',
-    subtitle: 'Tech Startup (Remote)',
-    date: '2024 - Present',
-    description: 'Creating user interfaces and improving user experience for web and mobile applications. Collaborating with development teams to implement designs using Figma and conducting user research.',
-  },
-  {
-    title: 'Freelance Graphic Designer',
-    subtitle: 'Self-Employed',
-    date: '2023 - Present',
-    description: 'Designing social media graphics, marketing materials, and brand identities for small businesses using Canva and Figma. Building client relationships and delivering projects on tight deadlines.',
-  },
-  {
-    title: 'IT Student Assistant',
-    subtitle: 'University IT Department',
-    date: '2023 - 2024',
-    description: 'Assisted students and faculty with technical issues, maintained computer labs, and helped with software installations. Gained hands-on experience with troubleshooting and customer service.',
-  },
-  {
-    title: 'Web Development Volunteer',
-    subtitle: 'Non-Profit Organization',
-    date: '2022 - 2023',
-    description: 'Built and maintained WordPress websites for local non-profit organizations. Implemented responsive designs and trained staff on content management.',
-  },
-];
+import { experiences } from '@/data/portfolioData';
+import { Briefcase, ArrowRight } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 const Experience = () => {
   return (
@@ -42,12 +17,41 @@ const Experience = () => {
 
           <div className="max-w-3xl mx-auto">
             {experiences.map((exp, index) => (
-              <TimelineItem
-                key={exp.title}
-                {...exp}
-                icon={<Briefcase size={12} />}
-                delay={index * 150}
-              />
+              <Link
+                key={exp.id}
+                to={`/experience/${exp.id}`}
+                className={cn(
+                  'relative pl-8 pb-8 last:pb-0 block group',
+                  'animate-slide-up opacity-0'
+                )}
+                style={{ 
+                  animationDelay: `${index * 150}ms`,
+                  animationFillMode: 'forwards'
+                }}
+              >
+                {/* Line */}
+                <div className="absolute left-[11px] top-8 bottom-0 w-0.5 bg-border last:hidden" />
+                
+                {/* Dot */}
+                <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
+                  <Briefcase size={12} />
+                </div>
+
+                {/* Content */}
+                <div className="bg-card rounded-xl border border-border p-5 hover-lift card-shine group-hover:border-primary/50 transition-colors">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
+                    <h3 className="text-lg font-semibold group-hover:text-primary transition-colors">{exp.title}</h3>
+                    <span className="text-sm text-primary font-medium px-3 py-1 rounded-full bg-primary/10">
+                      {exp.date}
+                    </span>
+                  </div>
+                  <p className="text-muted-foreground font-medium mb-2">{exp.subtitle}</p>
+                  <p className="text-muted-foreground text-sm mb-3">{exp.description}</p>
+                  <span className="inline-flex items-center gap-1 text-sm text-primary font-medium">
+                    View Details <ArrowRight size={14} />
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </div>

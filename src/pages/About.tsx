@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
 import SectionHeader from '@/components/ui/SectionHeader';
 import SkillBadge from '@/components/ui/SkillBadge';
@@ -29,6 +31,20 @@ const learning = [
 ];
 
 const About = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Handle hash navigation for skills section
+    if (location.hash === '#skills') {
+      setTimeout(() => {
+        const skillsSection = document.getElementById('skills-section');
+        if (skillsSection) {
+          skillsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
   return (
     <Layout>
       <div className="py-16">
@@ -64,7 +80,7 @@ const About = () => {
           </div>
 
           {/* Tools & Technologies */}
-          <div className="mb-16">
+          <div id="skills-section" className="mb-16 scroll-mt-24">
             <h3 className="text-2xl font-bold text-center mb-8">
               🛠 Tools & Technologies
             </h3>

@@ -18,10 +18,10 @@ const ProjectCard = ({ title, description, tags, image, liveUrl, githubUrl, dela
   return (
     <div
       className={cn(
-        'group relative bg-card rounded-xl border border-border overflow-hidden',
+        'group relative bg-card rounded-xl border border-border overflow-hidden h-full',
         'transition-all duration-500 ease-out',
         'animate-slide-up opacity-0',
-        'hover:border-primary/50 hover:shadow-glow'
+        'hover:border-primary/50 hover:shadow-glow cursor-pointer'
       )}
       style={{ 
         animationDelay: `${delay}ms`,
