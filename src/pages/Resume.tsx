@@ -85,23 +85,22 @@ const Resume = () => {
               <div className="space-y-6">
                 <div className="border-l-2 border-primary pl-4">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
-                    <h4 className="font-medium">UI/UX Design Intern</h4>
-                    <span className="text-sm text-primary">2024 - Present</span>
+                    <h4 className="font-medium">UI/UX Designer (Self-Employed)</h4>
+                    <span className="text-sm text-primary">Oct 2025 - Nov 2025t</span>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-1">Tech Startup (Remote)</p>
+                  <p className="text-sm text-muted-foreground mb-1">30-Day UI/UX Design Course</p>
                   <p className="text-sm text-muted-foreground">
-                    Creating user interfaces and improving UX for web and mobile applications. 
-                    Collaborating with development teams using Figma.
+                    Completed an intensive 30-day UI/UX design course, focusing on modern design principles, wireframing, prototyping, and creative tools.
                   </p>
                 </div>
                 <div className="border-l-2 border-border pl-4">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
-                    <h4 className="font-medium">Freelance Graphic Designer</h4>
-                    <span className="text-sm text-muted-foreground">2023 - Present</span>
+                    <h4 className="font-medium">Python Programmer (Self-Employed)</h4>
+                    <span className="text-sm text-muted-foreground">2025</span>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-1">Self-Employed</p>
+                  <p className="text-sm text-muted-foreground mb-1">Python Programming Course (YouTube Learning)</p>
                   <p className="text-sm text-muted-foreground">
-                    Designing social media graphics and marketing materials for small businesses.
+                    Designing social media graphics, marketing materials, and brand identities for small businesses.
                   </p>
                 </div>
               </div>
@@ -117,10 +116,10 @@ const Resume = () => {
               </h3>
               <div className="border-l-2 border-primary pl-4">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
-                  <h4 className="font-medium">Bachelor's in Information Technology</h4>
-                  <span className="text-sm text-primary">2022 - Present</span>
+                  <h4 className="font-medium">Bachelor's in Artificial Intelligence and Data Science</h4>
+                  <span className="text-sm text-primary">2025 - Present</span>
                 </div>
-                <p className="text-sm text-muted-foreground">University Name</p>
+                <p className="text-sm text-muted-foreground">Karpagam University - Karpagam Academy of Higher Education</p>
               </div>
             </AnimatedCard>
 
@@ -136,7 +135,7 @@ const Resume = () => {
                 <div>
                   <h4 className="text-sm font-medium mb-2 text-muted-foreground">Design & Prototyping</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Figma', 'Canva', 'UI/UX Design', 'Wireframing', 'Prototyping'].map(skill => (
+                    {['Figma', 'Canva', 'Adobe Express', 'UI/UX Design', 'Prototyping', 'Wireframing'].map(skill => (
                       <SkillBadge key={skill} name={skill} />
                     ))}
                   </div>
@@ -144,7 +143,7 @@ const Resume = () => {
                 <div>
                   <h4 className="text-sm font-medium mb-2 text-muted-foreground">Development</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Python', 'C Programming', 'VS Code', 'Git', 'GitHub', 'WordPress'].map(skill => (
+                    {['Python Programming', 'C Programming', 'C++ Programming', 'VS Code', 'Git', 'GitHub'].map(skill => (
                       <SkillBadge key={skill} name={skill} />
                     ))}
                   </div>
