@@ -55,7 +55,7 @@ const Contact = () => {
                 
                 <div className="space-y-4">
                   <a
-                    href="mailto:contact@example.com"
+                    href="gowthamginju9524@gmail.com"
                     className="flex items-center gap-4 p-3 rounded-lg hover:bg-secondary transition-colors group"
                   >
                     <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -63,12 +63,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Email</p>
-                      <p className="font-medium">contact@example.com</p>
+                      <p className="font-medium">gowthamginju9524@gmail.com</p>
                     </div>
                   </a>
                   
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+919361218343"
                     className="flex items-center gap-4 p-3 rounded-lg hover:bg-secondary transition-colors group"
                   >
                     <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Phone</p>
-                      <p className="font-medium">+1 234 567 890</p>
+                      <p className="font-medium">+91 9361218343</p>
                     </div>
                   </a>
                   
@@ -86,7 +86,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Location</p>
-                      <p className="font-medium">Your City, Country</p>
+                      <p className="font-medium">Tamilnadu, India</p>
                     </div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                   <p className="text-sm text-muted-foreground mb-4">Follow me on</p>
                   <div className="flex gap-3">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Aswinprasath"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 rounded-xl bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
@@ -104,7 +104,7 @@ const Contact = () => {
                       <Github size={20} />
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/link-aswinprasath/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 rounded-xl bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
@@ -140,7 +140,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary focus:ring-1 focus:ring-primary transition-all outline-none"
-                        placeholder="John Doe"
+                        placeholder="Aswin Prasath"
                       />
                     </div>
                     <div>
@@ -155,7 +155,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary focus:ring-1 focus:ring-primary transition-all outline-none"
-                        placeholder="john@example.com"
+                        placeholder="aswin@example.com"
                       />
                     </div>
                   </div>
