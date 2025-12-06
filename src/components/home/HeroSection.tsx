@@ -122,7 +122,7 @@ const HeroSection = () => {
 
           {/* Social Links */}
           <div
-            className="flex items-center justify-center gap-4 mb-16 animate-slide-up opacity-0"
+            className="flex items-center justify-center gap-4 animate-slide-up opacity-0"
             style={{
               animationDelay: '400ms',
               animationFillMode: 'forwards',
@@ -157,10 +157,10 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator - Positioned with more spacing */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce-subtle z-20">
-        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground flex justify-center pt-2">
-          <div className="w-1 h-2 rounded-full bg-muted-foreground animate-pulse" />
+      {/* Scroll Indicator - Positioned lower with proper spacing */}
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 animate-bounce-subtle z-20 mt-8">
+        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/60 flex justify-center pt-2">
+          <div className="w-1 h-2 rounded-full bg-muted-foreground/60 animate-pulse" />
         </div>
       </div>
     </section>
