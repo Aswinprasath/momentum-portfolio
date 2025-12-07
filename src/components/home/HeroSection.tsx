@@ -148,7 +148,6 @@ const HeroSection = () => {
             </a>
             <a
               href="mailto:gowthamginju9524@gmail.com"
-              target="_blank"
               className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1 z-50"
               aria-label="Email"
             >
