@@ -129,7 +129,7 @@ const HeroSection = () => {
             }}
           >
             <a
-              href="https://github.com"
+              href="https://github.com/Aswinprasath"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1"
@@ -138,7 +138,7 @@ const HeroSection = () => {
               <Github size={22} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/link-aswinprasath/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1"
@@ -147,7 +147,7 @@ const HeroSection = () => {
               <Linkedin size={22} />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:gowthamginju9524@gmail.com"
               className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1"
               aria-label="Email"
             >
