@@ -8,7 +8,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            Made with <Heart size={14} className="text-red-500 animate-pulse" /> © {currentYear}
+            Made with <Heart size={14} className="text-red-500 animate-pulse" />
+            {/* Profile Icon*/}
+            <img 
+              src = "/profile.jpg"
+              alt = "Aswin"
+              className=""w-4 h-4 rounded-full border border-primary object-cover" /> © {currentYear}
           </p>
           
           <div className="flex items-center gap-4">
