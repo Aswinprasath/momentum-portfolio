@@ -146,13 +146,13 @@ const HeroSection = () => {
             >
               <Linkedin size={22} />
             </a>
-            <a
+            <Link
               to="/contact"
               className="p-3 rounded-xl bg-card border border-border hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-1 z-50"
               aria-label="Email"
             >
               <Mail size={22} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
