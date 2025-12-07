@@ -116,7 +116,7 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium border border-border transition-all duration-300 hover:bg-secondary/80 hover:scale-105"
             >
               <Download size={18} />
-              View Resume
+              Download Resume
             </Link>
           </div>
 
