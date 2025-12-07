@@ -22,19 +22,41 @@ const Contact = () => {
     }));
   };
 
+  // ✅ FIXED SUBMIT FUNCTION (Now sends email through Formspree)
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
-    });
-    
-    setFormData({ name: '', email: '', subject: '', message: '' });
+
+    try {
+      const response = await fetch("https://formspree.io/f/mwpgqdkn", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for contacting me — I will reply shortly.",
+        });
+
+        // Reset form
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again later.",
+          variant: "destructive",
+        });
+      }
+    } catch {
+      toast({
+        title: "Network Error",
+        description: "Unable to send message. Check your connection.",
+        variant: "destructive",
+      });
+    }
+
     setIsSubmitting(false);
   };
 
@@ -55,7 +77,7 @@ const Contact = () => {
                 
                 <div className="space-y-4">
                   <a
-                    href="gowthamginju9524@gmail.com"
+                    href="mailto:gowthamginju9524@gmail.com"
                     className="flex items-center gap-4 p-3 rounded-lg hover:bg-secondary transition-colors group"
                   >
                     <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -68,7 +90,7 @@ const Contact = () => {
                   </a>
                   
                   <a
-                    href="tel:+919361218343"
+                    href="tel:‪+919361218343‬"
                     className="flex items-center gap-4 p-3 rounded-lg hover:bg-secondary transition-colors group"
                   >
                     <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -76,7 +98,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Phone</p>
-                      <p className="font-medium">+91 9361218343</p>
+                      <p className="font-medium">‪+91 9361218343‬</p>
                     </div>
                   </a>
                   
@@ -216,4 +238,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact;
