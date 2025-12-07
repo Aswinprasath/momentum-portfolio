@@ -278,3 +278,8 @@
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
 }
+
+/* Hide Lovable badge */
+#lovable-badge {
+  display: none !important;
+}

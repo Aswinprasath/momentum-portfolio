@@ -32,7 +32,7 @@ export interface Course {
   title: string;
   platform: string;
   duration: string;
-  status: 'Completed' | 'In Progress';
+  status: 'Completed' | 'In Progress' | 'Learning';
   description: string;
   fullDescription: string;
   image: string;
@@ -45,9 +45,9 @@ export interface Certificate {
   title: string;
   issuer: string;
   date: string;
-  credentialId: string;
+  credentialId?: string;
   image: string;
-  verifyUrl: string;
+  verifyUrl?: string;
   description: string;
   skills: string[];
 }
