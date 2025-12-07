@@ -108,7 +108,7 @@ export const projects: Project[] = [
     role: 'UI/UX|Poster Designer',
   },
   {
-    id: 'WordPress Poster Design ',
+    id: 'WordPress Poster Design',
     title: 'WordPress Templated Poster',
     description: 'This project is a LinkedIn background cover image of mine designed using Figma. It demonstrates my ability to create professional, visually appealing graphics that enhance personal branding on social platforms.',
     fullDescription: 'This project is a LinkedIn background cover image of mine designed using Figma. It demonstrates my ability to create professional, visually appealing graphics that enhance personal branding on social platforms. The cover image was crafted as a single image type, focusing on clarity, balance, and modern design principles.',
