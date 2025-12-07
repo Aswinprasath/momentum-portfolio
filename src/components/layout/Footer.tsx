@@ -8,7 +8,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            Made with <Heart size={14} className="text-red-500 animate-pulse" />
+            Made By <Heart size={14} className="text-red-500 animate-pulse" />
+            |
             {/* Profile Icon*/}
             <img 
               src = "/profile.jpg"
