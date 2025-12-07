@@ -13,7 +13,7 @@ const Footer = () => {
             <img 
               src = "/profile.jpg"
               alt = "Aswin"
-              className=""w-4 h-4 rounded-full border border-primary object-cover" /> © {currentYear}
+              className="w-4 h-4 rounded-full border border-primary object-cover" /> © {currentYear}
           </p>
           
           <div className="flex items-center gap-4">
