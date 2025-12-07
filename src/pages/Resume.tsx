@@ -48,11 +48,17 @@ const Resume = () => {
                   <MapPin size={14} />
                   Tamilnadu, India
                 </span>
-                <a href="#" className="flex items-center gap-1 hover:text-primary transition-colors">
+                <a  href="https://www.linkedin.com/in/link-aswinprasath/"
+                  target = "_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 hover:text-primary transition-colors">
                   <Linkedin size={14} />
                   LinkedIn
                 </a>
-                <a href="#" className="flex items-center gap-1 hover:text-primary transition-colors">
+                <a href="https://github.com/Aswinprasath"
+                  target = "_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 hover:text-primary transition-colors">
                   <Github size={14} />
                   GitHub
                 </a>
