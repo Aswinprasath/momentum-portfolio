@@ -81,7 +81,7 @@ const HeroSection = () => {
           >
             Hi, I'm a <span className="text-gradient">Tech-focused </span>
             <br />
-            Python coder and UI/UX designer in progress
+            UI/UX | Full Stack Developer In Progress
           </h1>
 
           {/* Subtitle */}
@@ -93,7 +93,7 @@ const HeroSection = () => {
             }}
           >
             Motivated and curious IT student passionate about leveraging technology to solve real-world problems,
-            skilled in Python and UI/UX design to create impactful digital solutions.
+            skilled and progressing in JavaScript, React, Node.js, Python and UI/UX design to create impactful digital solutions.
           </p>
 
           {/* CTA Buttons */}
