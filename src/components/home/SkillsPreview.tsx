@@ -13,7 +13,7 @@ const skillCategories = [
   {
     icon: Code,
     title: 'Development',
-    skills: ['Python', 'C/C++ Programming', 'VS Code', 'Git & GitHub'],
+    skills: ['Python','JavaScript', 'VS Code', 'Git & GitHub'],
     color: 'text-blue-500',
   },
   {
