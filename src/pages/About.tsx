@@ -15,6 +15,11 @@ const tools = {
 const skills = [
   'Python Programming',
   'C/C++ Programming',
+  'JavaScript',
+  'React',
+  'Node.Js',
+  'Html',
+  'CSS',
   'UI/UX Design',
   'Wireframing & User Flows',
   'Data Visualization',
@@ -26,6 +31,7 @@ const skills = [
 const learning = [
   'Advanced UI/UX methods',
   'Python for automation & data',
+  'Full Stack Developement',
   'C++ & Java Programming',
   'Power BI dashboards',
   'Improved Git/GitHub workflows',
@@ -66,7 +72,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold mb-3">Who I Am</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     I'm a motivated and curious tech enthusiast currently pursuing my studies in IT, 
-                    with growing expertise in Python programming, UI/UX design, Frontend, backend and software tools. 
+                    with growing expertise in Python programming, UI/UX design, Frontend, backend(Full Stack) with JavaScript, React, Node.Js and software tools. 
                     I'm passionate about leveraging technology to solve real-world problems and continuously 
                     improving my skills through hands-on learning.
                   </p>
